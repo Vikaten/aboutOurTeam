@@ -12,13 +12,17 @@
 html,
 body {
     max-width: 400px;
-    color: #8586C9;
+    color: #8c5fb8;
     font-family: "Unbounded";
     font-size: smaller;
 }
 
+a {
+    color: #63397a;
+}
+
 h1 {
-    color: #6A6CAB;
+    color: #63397a;
     margin-bottom: 7px;
 }
 
@@ -85,6 +89,7 @@ h4 {
 
 .gb {
     margin-right: 7px;
+    color: #63397a;
 }
 
 .vk {

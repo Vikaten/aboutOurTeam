@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Unbounded;
+    src: local("Unbounded");
+    font-weight: normal;
+}
+
+* {
+    padding: 1px;
+    margin: 1px;
+}
+
+html,
+body {
+    max-width: 400px;
+    color: #8586C9;
+    font-family: "Unbounded";
+    font-size: smaller;
+}
+
+h1 {
+    color: #6A6CAB;
+    margin-bottom: 7px;
+}
+
+h4 {
+    max-width: 290px;
+}
+
+.tanya {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.tanya-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.dima {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.vika {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+/* .vika-text {
+    display: flex;
+    flex-direction: column;
+} */
+
+.vlad {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.vlad_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.angel {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.angel-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gb {
+    margin-right: 7px;
+}
+
+.vk {
+    width: 40px;
+}
+
+@media (max-width: 300px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}

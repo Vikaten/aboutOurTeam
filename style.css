@@ -24,6 +24,7 @@ h1 {
 
 h4 {
     max-width: 290px;
+    font-weight: 500;
 }
 
 .tanya {
@@ -51,11 +52,6 @@ h4 {
     margin-bottom: 20px;
     align-items: center;
 }
-
-/* .vika-text {
-    display: flex;
-    flex-direction: column;
-} */
 
 .vlad {
     display: flex;
@@ -92,7 +88,7 @@ h4 {
 }
 
 .vk {
-    width: 40px;
+    width: 30px;
 }
 
 @media (max-width: 300px) {
